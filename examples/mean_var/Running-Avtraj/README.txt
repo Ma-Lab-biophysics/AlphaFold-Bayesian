@@ -4,7 +4,7 @@ Required external Python packages:
 - mdtraj and PyYAML: `conda install -c conda-forge mdtraj pyyaml`
 - avtraj v0.0.8: `pip install avtraj`
 
-AvTraj v0.0.8 requires small Python 3 compatibility patches in the active environment:
+If the active environment uses Python 3.x, AvTraj v0.0.8 requires small Python 3 compatibility patches (AvTraj v0.0.8 was originally written for Python 2.x):
 `bash patch_avtraj_py3.sh`
 
 Input data for AvTraj:
