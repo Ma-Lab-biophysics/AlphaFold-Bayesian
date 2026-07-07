@@ -1,0 +1,16 @@
+name: af-bayes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - openpyxl
+  - xlrd
+  - pytest
+  - pip
+  - pip:
+      - -e .
