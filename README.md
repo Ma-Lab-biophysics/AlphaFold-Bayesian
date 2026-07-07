@@ -11,7 +11,7 @@ This tool provides an AF sampling module and two Bayesian inference modules:
 ## Layout
 
 ```text
-AlphaFold-Bayes/
+AlphaFold-Bayesian/
 ├── pyproject.toml
 ├── environment.yml
 ├── README.md
