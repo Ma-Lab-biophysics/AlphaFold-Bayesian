@@ -5,7 +5,7 @@ Required external Python packages:
 - avtraj v0.0.8: `pip install avtraj`
 
 If the active environment uses Python 3.x, AvTraj v0.0.8 requires small Python 3 compatibility patches (AvTraj v0.0.8 was originally written for Python 2.x):
-`bash patch_avtraj_py3.sh`
+`python patch_avtraj_py3.py`
 
 Input data for AvTraj:
 - `labeling.fps.json`: AvTraj input file specifying the FRET probe properties
