@@ -26,5 +26,8 @@ dependencies = [
 AF-sample = "af_sample.cli:main"
 bayes-infer = "bayes_infer.cli:main"
 
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
