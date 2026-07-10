@@ -98,7 +98,7 @@ def read_input(path: str | os.PathLike[str] | TextIO) -> MeanVarInput:
             handle.close()
 
     if len(lines) < 4:
-        raise ValueError("Input must contain theta, mean/SE, variance/SEV, and at least one prior/observable row.")
+        raise ValueError("Input must contain theta, mean/SE, variance/SE, and at least one prior/observable row.")
 
     theta = float(lines[0].split()[0])
     y_obs, sigma = map(float, lines[1].split()[:2])
