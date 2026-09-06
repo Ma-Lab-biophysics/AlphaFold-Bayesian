@@ -3,7 +3,7 @@
 Bayesian inference of protein conformational ensembles by integrating AlphaFold-based
 modeling with sparse experimental data.
 
-**Authors:** J. Paluba, C. Berger, W. Ma (University of Vermont) · wen.ma@uvm.edu
+**Authors:** J. Paluba and W. Ma (University of Vermont) · wen.ma@uvm.edu
 **Repo:** https://github.com/Ma-Lab-biophysics/AlphaFold-Bayesian · **License:** GPL-3.0-or-later
 
 ---
