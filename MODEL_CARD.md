@@ -93,4 +93,7 @@ mitigation is bounded, since weight can only be redistributed among sampled stru
 
 ---
 
+## Compute infrastructure
+- AlphaFold2 predictions were generated with LocalColabFold on NVIDIA V100 and 3090 GPUs. Molecular dynamics simulations were run with Amber on NVIDIA 3090 GPUs. Bayesian inference was performed on CPU.
 
+---
