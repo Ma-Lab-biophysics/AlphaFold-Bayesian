@@ -1,0 +1,15 @@
+{
+  "backend": "local-log-weights",
+  "chi2_full_sum": 98763.69395239068,
+  "chi2_half_sum": 49381.84697619534,
+  "converged": true,
+  "entropy_skl": 5.367749907335066,
+  "nmodels": 5567,
+  "nrestraints": 3809,
+  "objective_final": 62801.221744533,
+  "objective_initial": 121602.04274207269,
+  "reduced_chi2_half_sum": 12.964517452400981,
+  "task": "scipy fmin_bfgs",
+  "theta": 2500.0,
+  "warnflag": 0
+}
