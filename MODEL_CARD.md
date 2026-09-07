@@ -43,8 +43,9 @@ deviation between ensemble-averaged and measured observables (the loss) and `S_K
 Kullback–Leibler divergence from a uniform reference distribution `w0` (the regularizer).
 
 **Procedure.** Regularized MAP estimation over log-weights, optimized by BFGS
-(`scipy.optimize.fmin_bfgs`), initialized from uniform weights. All restraints are fitted
-simultaneously; no held-out split is used.
+(`scipy.optimize.fmin_bfgs`), initialized from uniform weights. In the published analysis
+all restraints are fitted simultaneously; no held-out split is used. A retrospective
+cross-validation is reported below under Evaluation.
 
 **Hyperparameter.** `theta` sets the strength of the prior and is selected by scanning a
 broad range.
@@ -76,6 +77,7 @@ the remaining sites at `theta = 2500` and evaluates `chi^2` on the withheld rest
 Grouping by site rather than splitting restraints at random is necessary because restraints
 sharing a spin label are strongly correlated: neighbouring residues report almost the same
 probe distance, so a random split would place near-duplicate measurements in both partitions.
+The split is two-way, fit and held-out.
 **The detailed results are in `examples/multi_d/cross_validation/`.**
 
 Reduced `chi^2`, half-sum convention as in `summary.json`. Held-out `chi^2` exceeds the
