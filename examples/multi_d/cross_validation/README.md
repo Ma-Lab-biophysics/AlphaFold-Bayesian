@@ -54,8 +54,4 @@ the high-weight sub-ensemble is largely preserved. Rank agreement within the top
 moderate (Spearman 0.73), so ensemble-level quantities are better supported than the
 ordering of individual models.
 
-
-python cross_validation/run_cv.py --data-dir <multi_d_input> --theta 2500 \
-       --out-dir cv_run --max-parallel 2 \
-       --folds "15,72 125,322 178,352 239,384 256,416"
 ```
