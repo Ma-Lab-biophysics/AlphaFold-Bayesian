@@ -54,4 +54,3 @@ the high-weight sub-ensemble is largely preserved. Rank agreement within the top
 moderate (Spearman 0.73), so ensemble-level quantities are better supported than the
 ordering of individual models.
 
-```
