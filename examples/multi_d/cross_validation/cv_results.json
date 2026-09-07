@@ -1,0 +1,116 @@
+{
+  "theta": 2500.0,
+  "n_models": 5567,
+  "n_restraints": 3810,
+  "design": "grouped 5-fold by NMR-PRE spin-label site, two sites per fold; all ten sites held out exactly once",
+  "folds_spec": "15,72 125,322 178,352 239,384 256,416",
+  "chi2_convention": "reduced chi^2, half-sum convention as in summary.json",
+  "source_data_dir": "/Users/wenma/Documents/Research/Group_Research/Group_members/Justin/AF_reweighting/bioEN/WT/new_run_full/output_multi_d/BioEN_Files",
+  "full_fit_all_restraints": 12.957964681271985,
+  "uniform_all_restraints": 31.911515798045876,
+  "full_fit_n_eff": 25.97356219569129,
+  "folds": {
+    "fold1": {
+      "held_out_sites": [
+        "15",
+        "72"
+      ],
+      "n_test": 773,
+      "train_chi2": 10.724680690415767,
+      "heldout_chi2": 29.61559931804858,
+      "all_data_fit_chi2": 21.24509802106563,
+      "uniform_prior_chi2": 50.395401469625746,
+      "optimism_pct": 39.399683111290706,
+      "gain_over_uniform_pct": 41.233528349013234,
+      "top10_overlap": 5,
+      "top50_overlap": 29,
+      "spearman_top100": 0.4768796879687968,
+      "js_distance": 0.41965238447237413,
+      "n_eff": 60.81209669463881
+    },
+    "fold2": {
+      "held_out_sites": [
+        "125",
+        "322"
+      ],
+      "n_test": 748,
+      "train_chi2": 13.95146294312762,
+      "heldout_chi2": 12.846735235431643,
+      "all_data_fit_chi2": 10.027613081131209,
+      "uniform_prior_chi2": 27.41206452567196,
+      "optimism_pct": 28.113591255381888,
+      "gain_over_uniform_pct": 53.134740276857244,
+      "top10_overlap": 8,
+      "top50_overlap": 42,
+      "spearman_top100": 0.8592259225922592,
+      "js_distance": 0.2452227687672273,
+      "n_eff": 50.92466074152706
+    },
+    "fold3": {
+      "held_out_sites": [
+        "178",
+        "352"
+      ],
+      "n_test": 765,
+      "train_chi2": 12.215763024912032,
+      "heldout_chi2": 19.0171620460056,
+      "all_data_fit_chi2": 13.72234347945947,
+      "uniform_prior_chi2": 31.428862127609698,
+      "optimism_pct": 38.585381385269734,
+      "gain_over_uniform_pct": 39.49140771055991,
+      "top10_overlap": 8,
+      "top50_overlap": 33,
+      "spearman_top100": 0.6576417641764176,
+      "js_distance": 0.3342285106509752,
+      "n_eff": 27.56498757003444
+    },
+    "fold4": {
+      "held_out_sites": [
+        "239",
+        "384"
+      ],
+      "n_test": 761,
+      "train_chi2": 12.633795996666434,
+      "heldout_chi2": 19.398141410383534,
+      "all_data_fit_chi2": 14.242511100513132,
+      "uniform_prior_chi2": 36.463700402345495,
+      "optimism_pct": 36.19888567041141,
+      "gain_over_uniform_pct": 46.8015006805624,
+      "top10_overlap": 6,
+      "top50_overlap": 37,
+      "spearman_top100": 0.7261206120612061,
+      "js_distance": 0.3152100305725276,
+      "n_eff": 50.07197663898041
+    },
+    "fold5": {
+      "held_out_sites": [
+        "256",
+        "416"
+      ],
+      "n_test": 763,
+      "train_chi2": 14.877280775236997,
+      "heldout_chi2": 5.93093700269683,
+      "all_data_fit_chi2": 5.387400224638783,
+      "uniform_prior_chi2": 13.540039391251794,
+      "optimism_pct": 10.089036555558504,
+      "gain_over_uniform_pct": 56.19704765018037,
+      "top10_overlap": 8,
+      "top50_overlap": 42,
+      "spearman_top100": 0.9114431443144313,
+      "js_distance": 0.11422377553978035,
+      "n_eff": 28.938408521518717
+    }
+  },
+  "summary": {
+    "heldout_chi2": 17.36171500251324,
+    "all_data_fit_chi2": 12.924993181361646,
+    "uniform_prior_chi2": 31.848013583300933,
+    "optimism_pct": 30.477315595582446,
+    "gain_over_uniform_pct": 47.37164493343463,
+    "top10_overlap": 7.0,
+    "top50_overlap": 36.6,
+    "spearman_top100": 0.7262622262226223,
+    "js_distance": 0.28570749400057693,
+    "n_eff": 43.662426033339884
+  }
+}
