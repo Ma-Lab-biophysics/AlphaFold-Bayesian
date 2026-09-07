@@ -68,6 +68,29 @@ Baselines: the unweighted prior ensemble; AlphaFold2's pTM ranking at default se
 
 ---
 
+### Cross-validation
+
+Restraints were grouped by NMR-PRE spin-label site and partitioned into five folds of two
+sites each, so that all ten sites are held out exactly once. Each fold fits the weights on
+the remaining sites at `theta = 2500` and evaluates `chi^2` on the withheld restraints.
+Grouping by site rather than splitting restraints at random is necessary because restraints
+sharing a spin label are strongly correlated: neighbouring residues report almost the same
+probe distance, so a random split would place near-duplicate measurements in both partitions.
+**The detailed results are in `examples/multi_d/split/cross_validation/`.**
+
+Reduced `chi^2`, half-sum convention as in `summary.json`. Held-out `chi^2` exceeds the
+all-data fit on the same restraints by 30.5%, the expected in-sample optimism, and is 47.4%
+below the unreweighted AlphaFold prior in every fold (range 39.5-56.2%). The inferred
+weights therefore predict restraints from spin labels never seen during fitting
+substantially better than no reweighting.
+
+Weight agreement with the all-data fit: on average 7.0 of the top 10 and 36.6 of the top 50
+models are retained per fold, with Spearman 0.73 over the top 100. The identity of the
+high-weight sub-ensemble is largely preserved; 
+ensemble-level quantities are better supported than the ranking of individual models.
+
+---
+
 ## Model examination
 
 The model is interpretable by construction: inference returns an explicit posterior weight
