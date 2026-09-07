@@ -16,6 +16,7 @@ AlphaFold-Bayesian/
 ├── environment.yml
 ├── README.md
 ├── THIRD_PARTY_NOTICES.md
+├── MODEL_CARD.md
 ├── src/af_sample/
 │   ├── __init__.py
 │   └── cli.py
@@ -34,6 +35,8 @@ AlphaFold-Bayesian/
 │   └── mean_var/
 └── tests/
 ```
+
+A model card (https://huggingface.co/docs/hub/model-cards) is provided in MODEL_CARD.md.
 
 ## Install
 
