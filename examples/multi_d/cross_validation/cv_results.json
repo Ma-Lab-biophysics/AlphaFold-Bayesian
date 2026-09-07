@@ -5,7 +5,6 @@
   "design": "grouped 5-fold by NMR-PRE spin-label site, two sites per fold; all ten sites held out exactly once",
   "folds_spec": "15,72 125,322 178,352 239,384 256,416",
   "chi2_convention": "reduced chi^2, half-sum convention as in summary.json",
-  "source_data_dir": "/Users/wenma/Documents/Research/Group_Research/Group_members/Justin/AF_reweighting/bioEN/WT/new_run_full/output_multi_d/BioEN_Files",
   "full_fit_all_restraints": 12.957964681271985,
   "uniform_all_restraints": 31.911515798045876,
   "full_fit_n_eff": 25.97356219569129,
