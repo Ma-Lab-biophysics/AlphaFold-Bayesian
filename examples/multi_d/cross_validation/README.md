@@ -2,7 +2,7 @@
 
 Supplementary analyses of the tau NMR-PRE Bayesian reweighting.  
 These characterise how the inference behaves when data components are withheld.
-This analyse uses `theta = 2500` and the full 5,567-model tau ensemble.
+This analysis uses `theta = 2500` and the full 5,567-model tau ensemble.
 
 **Design.** Restraints are grouped by NMR-PRE spin-label site and partitioned into five
 folds of two sites each, so that all ten sites are held out exactly once. For each fold the
