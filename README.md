@@ -36,8 +36,6 @@ AlphaFold-Bayesian/
 └── tests/
 ```
 
-A model card (https://huggingface.co/docs/hub/model-cards) is provided in MODEL_CARD.md.
-
 ## Install
 
 ```bash
@@ -160,6 +158,8 @@ bayes-infer multi-d theta-scan \
 ```
 
 <!-- By default, `multi-d theta-scan` creates each theta folder and runs the local log-weight optimizer. Add `--no-run` to only create the folders and command files. -->
+
+A model card (https://huggingface.co/docs/hub/model-cards) is provided in MODEL_CARD.md.
 
 ## Third-party components
 
