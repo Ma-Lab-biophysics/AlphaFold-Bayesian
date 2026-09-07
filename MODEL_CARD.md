@@ -76,7 +76,7 @@ the remaining sites at `theta = 2500` and evaluates `chi^2` on the withheld rest
 Grouping by site rather than splitting restraints at random is necessary because restraints
 sharing a spin label are strongly correlated: neighbouring residues report almost the same
 probe distance, so a random split would place near-duplicate measurements in both partitions.
-**The detailed results are in `examples/multi_d/split/cross_validation/`.**
+**The detailed results are in `examples/multi_d/cross_validation/`.**
 
 Reduced `chi^2`, half-sum convention as in `summary.json`. Held-out `chi^2` exceeds the
 all-data fit on the same restraints by 30.5%, the expected in-sample optimism, and is 47.4%
